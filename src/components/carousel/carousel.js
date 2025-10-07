@@ -50,7 +50,7 @@ const Carousel = () => {
             <div className='carousel' ref={containerRef}>
                 <div className='cardItems'>
                     {CardDetail.map((data) => (
-                        <Link to={`/blog/${data.id}`}>
+                        <Link to={`/MUSIC-PROJECT/blog/${data.id}`}>
                             <Card name={data.name} image={data.image} detail={data.detail} />
                         </Link>
                     ))}

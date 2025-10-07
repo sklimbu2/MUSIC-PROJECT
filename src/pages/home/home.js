@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './home.css'
 const Home = () => {
     return(
-        <Link to='/blog'>
+        <Link to='/MUSIC-PROJECT/blog'>
             <img src='/MUSIC-PROJECT/wallpaper.png' alt='wallpaper' className='wallpaper'/>
             <img src='/MUSIC-PROJECT/logo.png' alt='logo' className='icon3' />
             <div className='bottom-logo'>
