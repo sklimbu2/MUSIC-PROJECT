@@ -13,7 +13,7 @@ const Nav = () => {
                     <input type='search' placeholder='שיר, אמן, להקה...' />
                     <IoSearchOutline className='seachBtn' />
                 </div>
-                <img src='/logo.png' alt='logo' height='60' />
+                <img src='/MUSIC-PROJECT/logo.png' alt='logo' height='60' />
             </div>
         </nav>
     )

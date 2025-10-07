@@ -9,9 +9,9 @@ const Blog = () => {
             <div className='container'>
                 <div className='overview'>
                     <div className='profile-bundle'>
-                        <img src='/profile/image1.png' className='profileImg' />
-                        <img src='/profile/image2.png' className='profileImg' />
-                        <img src='/profile/image3.png' className='profileImg' />
+                        <img src='/MUSIC-PROJECT/profile/image1.png' className='profileImg' />
+                        <img src='/MUSIC-PROJECT/profile/image2.png' className='profileImg' />
+                        <img src='/MUSIC-PROJECT/profile/image3.png' className='profileImg' />
                     </div>
                     <div>
                         <p className='overview-text'>

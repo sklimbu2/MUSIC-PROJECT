@@ -51,7 +51,7 @@ const Carousel = () => {
                 <div className='cardItems'>
                     {CardDetail.map((data) => (
                         <Link to={`/MUSIC-PROJECT/blog/${data.id}`}>
-                            <Card name={data.name} image={data.image} detail={data.detail} />
+                            <Card name={data.name} image={`/MUSIC-PROJECT/${data.image}`} detail={data.detail} />
                         </Link>
                     ))}
                 </div>
