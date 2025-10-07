@@ -1,0 +1,42 @@
+.carousel{
+    margin-top: 100px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.cardItems{
+    display:flex;
+    gap: 40px;
+}
+.card{
+    width: 250px;
+}
+.cardTitle{
+    text-align: center;
+}
+.cardImg{
+    height: 25vw;
+}
+.arrow-btn{
+    position:absolute;
+    z-index: 100;
+    top: 25%;
+    font-size: 40px;
+    background-color: var(--HeaderColor03);
+    opacity: .7;
+    font-weight: 800;
+    border-radius: 50%;
+    padding: 5px;
+}
+.arrow-btn:first-of-type{
+    left:-3%;
+}
+.arrow-btn:last-of-type{
+    right:-3%;
+}
+.arrow-btn:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.arrow-hidden{
+    visibility: hidden;
+}

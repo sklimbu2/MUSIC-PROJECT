@@ -1,0 +1,30 @@
+.blog{
+    background: #1b1464;
+    color: #ffff;
+}
+.container{
+    margin-top:74px;
+    padding: 0px 64px;
+}
+.overview{
+    display: flex;
+    justify-content: space-between;
+}
+.overview-text{
+    width: 40vw;
+    font-size: 2vw;
+    line-height: 30px;
+}
+.profileImg{
+    height: 25vw;
+}
+.profile-bundle{
+    display: flex;
+}
+.profileImg:nth-child(2), .profileImg:nth-child(3){
+    margin-left:-12vw;
+}
+.arrow-left{
+    color:#6DC4FE;
+    font-size: 5vw;
+}
